@@ -23,7 +23,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/LeoEstaProgramando/QR-code-component/tree/master/01.QR-code-component)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -36,12 +36,33 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+In this section I put into practice my basic knowledge of HTML and CSS.
 
-To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | QR code component</title>
+</head>
+<body>
+  <section class="container">
+    <img src="/images/image-qr-code.png" alt="Frontend Mentor QR">
+    <h2>Improve your front-end skills by building projects</h2>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </section>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://github.com/LeoEstaProgramando" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Leo Developer</a>.
+    </div>
+  </footer> 
+</body>
+</html>
 ```
 ```css
 .proud-of-this-css {
