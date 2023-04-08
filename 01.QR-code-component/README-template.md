@@ -36,54 +36,28 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-In this section I put into practice my basic knowledge of HTML and CSS.
+In this section I put into practice my basic knowledge of HTML and CSS, highlighting the use of the </img> and the use of variables for color styles.
 
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <title>Frontend Mentor | QR code component</title>
-</head>
-<body>
-  <section class="container">
+<section class="container">
     <img src="/images/image-qr-code.png" alt="Frontend Mentor QR">
     <h2>Improve your front-end skills by building projects</h2>
     <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
   </section>
-  <footer>
-    <div class="attribution">
-      Challenge by <a href="https://github.com/LeoEstaProgramando" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Leo Developer</a>.
-    </div>
-  </footer> 
-</body>
-</html>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+:root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-light-gray: hsl(212, 45%, 89%);
+    --color-grayish-blue: hsl(220, 15%, 55%);
+    --color-dark-blue: hsl(218, 44%, 22%);
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+For future projects, I will continue to use variables for styles and improve the use of them.
 
 ## Author
 
